@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> تنقيذ المهمة </title>
+    <title> VRO: Dashbboard </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -297,164 +297,163 @@
         <div class="main-content legan" id="mainContent">
 
             <div class="container-fluid">
-                <section class="section mbmd mtmd pos-rel ptlg pblg prlg pllg">
-                    <div>
-                        <h2 class="title">تنفيذ المهمة (مراجعة التفويض)</h2>
+                <div class="ptsm">
+                    <h1 class="title">الصفحة الرئيسية</h1>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="ptlg pblg" id="app">
+
+                    <div class="mtlg mbxlg">
+                        <div class="flex justify-between">
+                            <div class="ptmd pblg pllg prlg hpstatics">
+                                <div><strong class="text-primary text-large">المهام الموجهة</strong></div>
+                                <div class="mtlg mbmd">
+                                    <div class="text-large">
+                                        <strong>20</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ptmd pblg pllg prlg hpstatics">
+                                <div><strong class="text-primary text-large">المهام المكتملة</strong></div>
+                                <div class="flex align-center mtlg mbmd">
+                                    <div class="progress flex1 mllg" style="height: 7px;">
+                                        <div class="progress-bar progress-bar-green" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="text-large">
+                                        <strong>13</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ptmd pblg pllg prlg hpstatics">
+                                <div><strong class="text-primary text-large">المهام المعلقة</strong></div>
+                                <div class="flex align-center mtlg mbmd">
+                                    <div class="progress flex1 mllg" style="height: 7px;">
+                                        <div class="progress-bar progress-bar-lightgreen" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="text-large">
+                                        <strong>4</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ptmd pblg pllg prlg hpstatics">
+                                <div><strong class="text-primary text-large">المهام المرفوضة</strong></div>
+                                <div class="flex align-center mtlg mbmd">
+                                    <div class="progress flex1 mllg" style="height: 7px;">
+                                        <div class="progress-bar progress-bar-darkgreen" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="text-large">
+                                        <strong>3</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="accordion mtlg">
-
-                        <div class="card">
-                            <div class="card-header" id="headOne">
-                                <h2>
-                                    <button type="button" class="" data-toggle="collapse" data-target="#colOne" aria-expanded="true" aria-controls="colOne"></button>
-                                    <span style="color:#004C45;">بيانات التفويض</span>
-                                </h2>
-                            </div>
-                            <div id="colOne" class="collapse show" aria-labelledby="headOne">
-                                <div class="card-body">
-
-                                    <div class="col-md-10 col-sm-12">
-                                        <div class="rows-even-odd mtmd">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">اسم اللجنة</label>
-                                                        <div class="col-md-9 col-sm-12">
-                                                            <span>لجنة انشاء مترو الرياض وتطوير المرافق المحيطة</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class=" row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">اسم المهمة:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>إضافة أعضاء اللجنة </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">رقم اللجنة:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>إضافة أعضاء اللجنة </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class=" row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">تصنيف اللجنة:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>لجان وزارية</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">نوع اللجنة:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>لجنة وزارية</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class=" row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">تاريخ البداية:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>1441/2/12</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">تاريخ الانتهاء:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>1441/2/12</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class=" row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">مفوض المهمة:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>فهمد بكار</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">مفوض إلي:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>إبراهيم سليمان</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class=" row">
-                                                <div class="col-md-6 col-sm12">
-                                                    <div class="row">
-                                                        <label class="col-md-3 col-sm-12 col-form-label">ملاحظات:</label>
-                                                        <div class="col-md-8 col-sm-12">
-                                                            <span>لا يوجد</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="mtxlg">
-                                                <div class="text-left">
-                                                    <button type="reset" class="btn btn-wide btn-primary-reverse">رفض</button>
-                                                    <button type="submit" class="btn btn-wide btn-primary">موافقة</button>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="mtmd common-shadow ptlg prlg pllg pblg b_all bg-white">
-                                            <div class="mcd pos-abs left20">
-                                                <button class="btn btn-link pull-left"><i class="fas fa-times"></i></button>
-                                            </div>
-
-                                            <form>
-                                                <div>
-                                                    <h2 class="sec-title" style="color:#004C45;">سبب الرفض</h2>
-                                                </div>
-
-                                                <div class="mtlg">
-                                                    <label class="ccol-form-label">الملاحظات</label>
-                                                    <textarea name="" class="form-control" rows="4" placeholder="الملاححظات"></textarea>
-                                                </div>
-
-                                                <div class="mtlg text-left">
-                                                    <button type="submit" class="btn btn-wide btn-primary">إرسال</button>
-                                                    <button type="button" class="btn btn-wide btn-primary-reverse">إلغاء</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-
+                    <div class="dashboard cf">
+                        <div class=" dashboard-col">
+                            <div class="list-metro-wrapper b_all" style="height:100%;">
+                                <div class="mbmd">
+                                    <h5 class="text-primary text-thin text-right"></h5>
                                 </div>
+                                <div class="title-wrapper mbmd">
+                                    <h5 class="title">فاعليات</h5>
+                                </div>
+                                <ol class="list-metro clearfix">
+                                    <li>
+                                        <a href="cmt_maham.html">
+                                            <div class="metro-icon"><i class="far fa-copy"></i></div>
+                                            <div class="metro-text">
+                                                <h5>المهام</h5>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cmt_leggan.html">
+                                            <div class="metro-icon"><i class="fas fa-briefcase"></i></div>
+                                            <div class="metro-text">
+                                                <h5>اللجان</h5>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cmt_memebrs.html">
+                                            <div class="metro-icon"><i class="fas fa-file-alt"></i></div>
+                                            <div class="metro-text">
+                                                <h5>الاعضاء والجهات</h5>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cmt_meetings.html">
+                                            <div class="metro-icon"><i class="far fa-calendar-alt"></i></div>
+                                            <div class="metro-text">
+                                                <h5>الاجتماعات</h5>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class=" dashboard-col">
+                            <div class="b_all ptmd pbmd plmd prmd" style="height: 100%">
+                                <div class="title-wrapper mbmd">
+                                    <h5 class="title">احداث المهام (5)</h5>
+                                    <div>
+                                        <a href="cmt_maham.html" class="link-txt fl">مشاهدة جميع المهام</span></a>
+                                    </div>
+                                </div>
+                                <table class="js-datatable table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>اسم اللجنه</th>
+                                            <th>المهمة</th>
+                                            <th width="150">التاريخ</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>لجنة تطوير انشطة الوزارة</td>
+                                            <td>تحديث إفادة عن حالة اللجنة</td>
+                                            <td width="150">25/8/1440</td>
+                                        </tr>
+                                        <tr>
+                                            <td>لجنة تطوير انشطة الوزارة</td>
+                                            <td>تحديث إفادة عن حالة اللجنة</td>
+                                            <td width="150">25/8/1440</td>
+                                        </tr>
+                                        <tr>
+                                            <td>لجنة تطوير انشطة الوزارة</td>
+                                            <td>تحديث إفادة عن حالة اللجنة</td>
+                                            <td width="150">25/8/1440</td>
+                                        </tr>
+                                        <tr>
+                                            <td>لجنة تطوير انشطة الوزارة</td>
+                                            <td>تحديث إفادة عن حالة اللجنة</td>
+                                            <td width="150">25/8/1440</td>
+                                        </tr>
+                                        <tr>
+                                            <td>لجنة تطوير انشطة الوزارة</td>
+                                            <td>تحديث إفادة عن حالة اللجنة</td>
+                                            <td width="150">25/8/1440</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
                     </div>
-                </section>
+
+                </div>
             </div>
 
         </div>
+
 
 
         <footer class="footer" id="footer">
